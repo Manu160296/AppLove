@@ -70,4 +70,38 @@ a:hover {
 }
 
 /*ESCRIBE TU CÓDIGO DESDE AQUÍ*/
-
+header{
+  padding-left: 100px;
+  height: 100px;
+  width: 100%;,
+  padding-top: 30px;
+  outline: 1px solid green ;
+ }
+ figure{
+   display: inline-block;
+   padding-left: 500px
+ }
+figure .logo{
+  width: 55px;
+  height: 55px;
+  display: inline-block;
+}
+.text-uppercase  a {
+  outline: 1px  solid red ;
+  padding-left: 100px;
+}
+ section.container{
+color:#ffffff;
+text-align: center;
+font-size: 30px;
+background-image: url(../assets/images/bg-home.jpg);
+width: 100%;
+height: 536px;
+}
+#button{
+background-color: #2ecc71;
+border: none;
+color: #ffffff;
+width: 150px;
+height: 45px;
+}
