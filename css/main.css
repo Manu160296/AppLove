@@ -75,3 +75,170 @@ a:hover {
 /*ESCRIBE TU CÓDIGO DESDE AQUÍ*/
 
 /*estilos del header*/
+header {
+  background-color: #ffffff;
+  height: 100px;
+  padding-left: 100px;
+  position: fixed;
+  margin: 0;
+  top: 0;
+  width: 100%;
+}
+
+figure {
+  display: inline-block;
+  padding-left: 500px
+}
+
+figure .logo {
+  display: inline-block;
+  height: 55px;
+  width: 55px;
+}
+
+.text-uppercase a {
+  font-weight: bolder;
+  padding-left: 100px;
+}
+
+/*estilos de section class=container*/
+
+section.container {
+  background-image: url(../assets/images/bg-home.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #ffffff;
+  height: 536px;
+  margin-top: 100px;
+  text-align: center;
+  width: 100%;
+}
+
+.container h2 {
+  font-size: 1.4em;
+  font-weight: lighter;
+  margin: 75px;
+}
+
+.container h1 {
+  font-size: 3em;
+  font-weight: 900;
+  margin-bottom: 10px;
+}
+
+.container p {
+  margin-bottom: 74px;
+}
+
+#button {
+  background-color: #2ecc71;
+  border: none;
+  color: #ffffff;
+  height: 45px;
+  width: 150px;
+}
+
+/* estilos de section class=services*/
+
+.services {
+  background-color: #f17c72;
+  padding: 87px 0;
+}
+
+.services h2 {
+  color: #ffffff;
+  font-size: 2.2em;
+  font-weight: bolder;
+  margin: 0;
+  text-align: center;
+}
+
+.services h4 {
+  color: #ffffff;
+  font-size: 1em;
+  text-align: center;
+}
+
+.service-item {
+  display: inline-block;
+  margin: 20px;
+  width: 30%;
+}
+
+.service-item figure {
+  padding: 10px 20px;
+}
+
+.service-item img {
+  display: block;
+  margin: 10px 40px;
+  width: 180px;
+}
+
+.service-item .description {
+  color: #ffffff;
+  display: block;
+  font-size: 1.1em;
+  text-align: center;
+}
+
+.service-item .description h5, h6 {
+  margin: 0;
+}
+
+/*estilos de section class=work*/
+
+.work {
+  padding: 87px 0;
+}
+
+.work-description h2 {
+  color: #191919;
+  font-size: 2.2em;
+  font-weight: bolder;
+  margin: 0 0 30px;
+  text-align: center;
+}
+
+.work-description h4 {
+  color: #424242;
+  text-align: center;
+
+}
+
+.work-description figure {
+  margin-left: 190px;
+  padding: 0;
+}
+
+.work-image img {
+  width: 939px
+}
+
+.galery ul li {
+  color: #444444;
+  display: inline-block;
+  font-weight: bolder;
+  list-style: none;
+  margin: 20px 50px;
+  text-align: center;
+}
+
+.galery ul li img {
+  height: 250px;
+  width: 300px;
+}
+
+/*estilos del footer*/
+
+.footer {
+  background-color: #373b47;
+  height: 71px;
+  padding: 20px;
+}
+
+.footer p {
+  color: #ffffff;
+  margin: 0;
+  text-align: center;
+}
