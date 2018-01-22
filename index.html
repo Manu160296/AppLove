@@ -8,178 +8,191 @@
   <title>AppLove</title>
   <!--linea 9 : link para extraer tipografía -->
   <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+  <!--icon -->
+  <link rel="icon" href="assets/images/icon.png">
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="vendors/bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="vendors/bootstrap/css/bootstrap-grid.min.css">
+  <!-- Styles CSS -->
   <link rel="stylesheet" href="css/main.css">
 </head>
 
 <body>
   <!--HEADER (estructura principal) : div(1) -->
-  <header>
-
-    <div class="text-uppercase">
-      <a>Services</a>
-      <a>Work</a>
-      <a>The team</a>
-
-      <figure>
-        <img class="logo" src="assets/images/logo.png" alt="logo AppLove">
-      </figure>
-    </div>
-
-  </header>
-  <!--SECTION /CONTAINER (estructura principal):div(1) -->
-  <section class="container">
-
-    <div>
-
-      </figure>
-      <h2 class="text-uppercase">you just found an untilmate</h2>
-
-      <h1 class="text-uppercase">We are applove from heart</h1>
-
-      <p class="text-uppercase">handcrafted - modern design - pixel perfect - passioned design</p>
-
-      <a><button id="button" class="text-uppercase" type="button" name="button">View services</button></a>
-
-    </div>
-
-  </section>
-  <!--SECTION /SERVICES (estructura principal):h2(1);h4(1);div(1) -->
-  <section class="services">
-    <h2 class="text-uppercase">Services</h2>
-
-    <h4>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididuntut,<br>
-          magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.
-        </h4>
-
-    <div class="services-images">
-
-      <div class="service-item">
-
-        <figure>
-          <img src="assets/images/services-1.png" alt="servicio 1">
-        </figure>
-        <div class="description">
-          <h5 class="text-uppercase">user interface design</h5>
-          <h6>Wireframing</h6>
-          <h6>Prototyping</h6>
-          <h6>Usability testing</h6>
-        </div>
-
-      </div>
-
-      <div class="service-item">
-        <figure>
-          <img src="assets/images/services-2.png" alt="servicio 2">
-        </figure>
-        <div class="description">
-          <h5 class="text-uppercase">concept and ideas</h5>
-          <h6>Conceptualization</h6>
-          <h6>Digital Branding</h6>
-          <h6>Product Strategy</h6>
-        </div>
-
-      </div>
-
-      <div class="service-item">
-        <figure>
-          <img src="assets/images/services-3.png" alt="servicio 3">
-        </figure>
-
-        <div class="description">
-          <h5 class="text-uppercase">desing and branding</h5>
-          <h6>Interaction Design</h6>
-          <h6>Graphic Design</h6>
-          <h6>Identity Design</h6>
-        </div>
-
-      </div>
-
-    </div>
-
-  </section>
-  <!--SECTION /WORK (estructura principal):div(1) -->
-  <section class="work">
-
-    <div class="work-description">
-
-      <h2 class="text-uppercase">work</h2>
-
-      <h4>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididuntut,<br>
-          magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.
-        </h4>
-
-      <figure class="work-image">
-        <img src="assets/images/hero.png" alt="laptop de trabajo">
-      </figure>
-
-      <div class="galery">
-
-        <ul>
-
-          <li>
-            <img src="assets/images/work-1.jpg" alt="hoja tayman">
-            <p class="text-uppercase">nombre del proyecto</p>
+  <header class="w-100 margin-0 padding-0 fixed">
+    <!--navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white margin-0 padding-0 outline padding-0-50">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>    
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link text-uppercase weight-bolder margin-0-50" href="#">services <span class="sr-only">(current)</span></a>         
           </li>
-          <li>
-            <img src="assets/images/work-2.jpg" alt="botella dispensadora de gel">
-            <p class="text-uppercase">nombre del proyecto</p>
+          <li class="nav-item active">
+            <a class="nav-link text-uppercase weight-bolder margin-0-50" href="#">work <span class="sr-only">(current)</span></a>
           </li>
-          <li>
-            <img src="assets/images/work-3.jpg" alt="libro " The brass coq "">
-            <p class="text-uppercase">nombre del proyecto</p>
+          <li class="nav-item active">
+            <a class="nav-link text-uppercase weight-bolder margin-0-50" href="#">the team <span class="sr-only">(current)</span></a>
           </li>
-          <li>
-            <img src="assets/images/work-4.jpg" alt="disco de vinilo">
-            <p class="text-uppercase">nombre del proyecto</p>
-          </li>
-          <li>
-            <img src="assets/images/work-5.jpg" alt="bolsa de especias">
-            <p class="text-uppercase">nombre del proyecto</p>
-          </li>
-          <li>
-            <img src="assets/images/work-6.jpg" alt="caja roja">
-            <p class="text-uppercase">nombre del proyecto</p>
-          </li>
-          <li>
-            <img src="assets/images/work-7.jpg" alt="pantalla de computadora">
-            <p class="text-uppercase">nombre del proyecto</p>
-          </li>
-          <li>
-            <img src="assets/images/work-8.jpg" alt="revista weareink">
-            <p class="text-uppercase">nombre del proyecto</p>
-          </li>
-          <li>
-            <img src="assets/images/work-9.jpg" alt="folleto">
-            <p class="text-uppercase">nombre del proyecto</p>
-          </li>
-          <li>
-            <img src="assets/images/work-10.jpg" alt="pantalla de computadora">
-            <p class="text-uppercase">nombre del proyecto</p>
-          </li>
-          <li>
-            <img src="assets/images/work-11.jpg" alt="pantalla de computadora">
-            <p class="text-uppercase">nombre del proyecto</p>
-          </li>
-          <li>
-            <img src="assets/images/work-12.jpg" alt="revista platinum">
-            <p class="text-uppercase">nombre del proyecto</p>
-
         </ul>
+        <figure class="padding-right-100px margin-0">
+          <img class="logo img-size" src="assets/images/logo.png" alt="logo AppLove">
+        </figure>
+      </div>
+    </nav>
+    <!-- fin navbar-->
+  </header>
+
+  <!--SECTION /CONTAINER (estructura principal):div(1) -->
+  <section class="container-fluid  padding-0 margin-top-96px ">
+    <div class="row bg-image margin-0 padding-0 pb-70px">
+      <div class="col-xs-12 col-sm-12 col-lg-12 pb-70px">
+        <h2 class="text-uppercase secondary-title--styles mt-70px">you just found an untilmate</h2>
+        <h1 class="text-uppercase mt-70px principal-title--styles">We are applove from heart</h1>
+        <p class="text-uppercase">handcrafted - modern design - pixel perfect - passioned design</p>
+        <a><button id="button" class="text-uppercase mt-70px" type="button" name="button">View services</button></a>
+      </div>
+    </div>
+  </section>
+
+  <!--SECTION /SERVICES (estructura principal):h2(1);h4(1);div(1) -->
+  <section  class="container-fluid  padding-0 bg-pink pb-70px">
+    <div class="row margin-0 padding-0 ">
+      <div class="col-xs-12 col-sm-12 col-lg-12">
+        <h2 class="text-uppercase text-center text-white service-title-size mt-70px">Services</h2>
+        <h4 class="text-white paragraph-size text-center mt-70px">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididuntut,<br>
+          magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.
+        </h4>
+     </div>
+    </div>
+    <div class="row  justify-content-center mt-70px margin-0 padding-0 ">
+      <div class="col-xs-12  col-sm-3  col-lg-3">
+        <figure class="row justify-content-center">
+          <img src="assets/images/services-1.png" alt="servicio 1" class="service-image--size">
+        </figure>
+        <div>
+          <h5 class="text-uppercase text-white service-item-size text-center">user interface design</h5>
+          <h6 class="text-white service-item-size text-center">Wireframing</h6>
+          <h6 class="text-white service-item-size text-center">Prototyping</h6>
+          <h6 class="text-white service-item-size text-center">Usability testing</h6>
+          <br>
+        </div>
+      </div>
+      <div class="col-xs-12  col-sm-2 col-lg-3">
+        <figure class="row justify-content-center margin-0 padding-0">
+          <img src="assets/images/services-2.png" alt="servicio 2" class="service-image--size">
+        </figure>
+        <div>
+          <h5 class="text-uppercase text-white service-item-size text-center">concept and ideas</h5>
+          <h6 class="text-white service-item-size text-center">Conceptualization</h6>
+          <h6 class="text-white service-item-size text-center">Digital Branding</h6>
+          <h6 class="text-white service-item-size text-center">Product Strategy</h6>
+          <br>
+        </div>
+      </div>
+      <div class="col-xs-12 col-sm-3 col-lg-3">
+        <figure class="row justify-content-center margin-0 padding-0">
+          <img src="assets/images/services-3.png" alt="servicio 3" class="service-image--size">
+        </figure>    
+        <div>
+          <h5 class="text-uppercase text-white service-item-size text-center">desing and branding</h5>
+          <h6 class="text-white service-item-size text-center">Interaction Design</h6>
+          <h6 class="text-white service-item-size text-center">Graphic Design</h6>
+          <h6 class="text-white service-item-size text-center">Identity Design</h6>
+          <br>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--SECTION /WORK (estructura principal):div(1) -->
+  <section  class="container-fluid  padding-0  pb-70px ">
+    <div class="row  mt-70px margin-0 padding-0">
+      <div class="col-xs-12 col-sm-12 col-lg-12">
+        <h2 class="text-uppercase work-title-styles text-center">work</h2>
+        <h4 class="work-paragraph-styles mt-70px">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididuntut,<br>
+          magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.
+        </h4>
+        <br>
+        <figure class=" row justify-content-center">
+          <img src="assets/images/hero.png" alt="laptop de trabajo" class="work-image-size ">
+        </figure>
 
       </div>
-
     </div>
-
+    <div class="row justify-content-center margin-0 padding-0 pb-70px">
+      <div class="col-xs-12 col-sm-3 col-lg-3">
+        <img src="assets/images/work-1.jpg" alt="hoja tayman" class="image-galery-size ">
+        <p class="text-uppercase text-center weight-bolder">nombre del proyecto</p>
+      </div>
+      <div class="col-xs-12 col-sm-3 col-lg-3">
+        <img src="assets/images/work-2.jpg" alt="botella dispensadora de gel" class="image-galery-size ">
+        <p class="text-uppercase text-center weight-bolder">nombre del proyecto</p>
+      </div>
+      <div class="col-xs-12 col-sm-3 col-lg-3">
+        <img src="assets/images/work-3.jpg" alt="libro " class="image-galery-size ">
+        <p class="text-uppercase text-center weight-bolder">nombre del proyecto</p>
+      </div>
+    </div>
+    <div class="row justify-content-center margin-0 padding-0 pb-70px">
+      <div class="col-xs-12 col-sm-3 col-lg-3">
+        <img src="assets/images/work-4.jpg" alt="disco de vinilo" class="image-galery-size ">
+        <p class="text-uppercase text-center weight-bolder">nombre del proyecto</p>
+      </div>
+      <div class="col-xs-12 col-sm-3 col-lg-3">
+        <img src="assets/images/work-5.jpg" alt="bolsa de especias" class="image-galery-size ">
+        <p class="text-uppercase text-center weight-bolder">nombre del proyecto</p>            
+      </div>
+      <div class="col-xs-12 col-sm-3 col-lg-3">
+        <img src="assets/images/work-6.jpg" alt="caja roja" class="image-galery-size ">
+        <p class="text-uppercase text-center weight-bolder">nombre del proyecto</p>       
+      </div>
+    </div>
+    <div class="row justify-content-center margin-0 padding-0 pb-70px">
+      <div class="col-xs-12 col-sm-3 col-lg-3">
+        <img src="assets/images/work-7.jpg" alt="pantalla de computadora" class="image-galery-size ">
+        <p class="text-uppercase text-center weight-bolder">nombre del proyecto</p>             
+      </div>
+      <div class="col-xs-12 col-sm-3 col-lg-3">
+        <img src="assets/images/work-8.jpg" alt="revista weareink" class="image-galery-size ">
+        <p class="text-uppercase text-center weight-bolder">nombre del proyecto</p>                     
+      </div>
+      <div class="col-xs-12 col-sm-3 col-lg-3">
+        <img src="assets/images/work-9.jpg" alt="folleto" class="image-galery-size ">
+        <p class="text-uppercase text-center weight-bolder">nombre del proyecto</p>                   
+      </div>
+    </div>
+    <div class="row justify-content-center margin-0 padding-0 pb-70px">
+      <div class="col-xs-12 col-sm-3 col-lg-3">
+        <img src="assets/images/work-10.jpg" alt="pantalla de computadora" class="image-galery-size ">
+        <p class="text-uppercase text-center weight-bolder">nombre del proyecto</p>               
+      </div>
+      <div class="col-xs-12 col-sm-3 col-lg-3">
+        <img src="assets/images/work-11.jpg" alt="pantalla de computadora" class="image-galery-size ">
+        <p class="text-uppercase text-center weight-bolder">nombre del proyecto</p>                      
+      </div>
+      <div class="col-xs-12 col-sm-3 col-lg-3">
+        <img src="assets/images/work-12.jpg" alt="revista platinum" class="image-galery-size ">
+        <p class="text-uppercase text-center weight-bolder">nombre del proyecto</p>                               
+      </div>
+    </div>
   </section>
+
   <!--FOOTER/FOOTER (estructura principal):P(1) -->
-  <footer class="footer">
-
-    <p>&#169; Copyright</p>
-
+  <footer class="bg-footer row  margin-0 padding-0 ">
+    <div class="col-xs-12 col-sm-12 col-lg-12">
+      <p class="text-center text-white mt-20 ">&#169; Copyright</p>
+    </div>
   </footer>
-
+  
+  <!--JQuery -->
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+  <!-- Bootstrap -->
+  <script src="vendors/bootstrap/js/bootstrap.min.js"></script>  
 </body>
 
 </html>
