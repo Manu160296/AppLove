@@ -25,6 +25,15 @@ HTML
 CSS
 ~~~
 ***
+## Version 2.0 :
+##### Para la versión 2.0 , se actualizó la pagina con diseño responsive (2 breakpoints mobile y desktop) , para lo cual se utilizaron los siguientes frameworks:
+~~~
+Bootstrap 4
+~~~
+~~~
+JQuery
+~~~
+
 ## Fuentes de información necesarias para resolver el ejercicio:
 * https://developer.mozilla.org/es/docs/Learn/HTML/Introduccion_a_HTML/iniciar
 * https://developer.mozilla.org/es/docs/Learn/CSS/Introduction_to_CSS/Selectores_simples
